@@ -13,6 +13,11 @@ namespace Hello_Git.Controllers
             Response.Write("<h1>hello</h1>");
         }
 
+        public void About()
+        {
+            Response.Write("<h1>about</h1>");
+        }
+
        
 
     }
