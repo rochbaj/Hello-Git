@@ -18,6 +18,11 @@ namespace Hello_Git.Controllers
             Response.Write("<h1>about</h1>");
         }
 
+        public void Branch()
+        {
+            Response.Write("<h1>branch</h1>");
+        }
+
        
 
     }
